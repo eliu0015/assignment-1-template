@@ -1,0 +1,551 @@
+<testsuite errors="4" failures="23" name="" tests="32" time="26.905">
+<testcase classname="test_task1.TestTask1" name="test1_1" time="2.002">
+<error type="TimeoutError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 29, in test
+    raise TimeoutError(f"Timed out after {sec} seconds")
+TimeoutError: Timed out after 2 seconds
+</error>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_2" time="2.002">
+<error type="TimeoutError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 29, in test
+    raise TimeoutError(f"Timed out after {sec} seconds")
+TimeoutError: Timed out after 2 seconds
+</error>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_3" time="2.005">
+<error type="TimeoutError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 29, in test
+    raise TimeoutError(f"Timed out after {sec} seconds")
+TimeoutError: Timed out after 2 seconds
+</error>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_4" time="2.002">
+<error type="TimeoutError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 29, in test
+    raise TimeoutError(f"Timed out after {sec} seconds")
+TimeoutError: Timed out after 2 seconds
+</error>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_5" time="1.812">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task1.py", line 30, in test1_5
+    self.mars_test_in_out("task1.asm", "task1/5.in", "task1/5.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[172 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 1 yet
++ Welcome to the Thor Electrical Company!
++ Enter your age: Enter your total consumption in kWh: Mr Loki Laufeyson, your electricity bill is $41.58
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_pseudoinstructions" time="0.014"/>
+<testcase classname="test_task2.Testtask2" name="test2_1" time="1.709">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task2.py", line 14, in test2_1
+    self.mars_test_in_out("task2.asm", "task2/1.in", "task2/1.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[118 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 2 yet
++ How tall do you want the tower:       A 
++      * * 
++     * * * 
++    * * * * 
++   * * * * * 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task2.Testtask2" name="test2_2" time="1.214">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task2.py", line 18, in test2_2
+    self.mars_test_in_out("task2.asm", "task2/2.in", "task2/2.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[139 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 2 yet
++ How tall do you want the tower:        A 
++       * * 
++      * * * 
++     * * * * 
++    * * * * * 
++   * * * * * * 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task2.Testtask2" name="test2_3" time="1.294">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task2.py", line 22, in test2_3
+    self.mars_test_in_out("task2.asm", "task2/3.in", "task2/3.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[163 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 2 yet
++ How tall do you want the tower:         A 
++        * * 
++       * * * 
++      * * * * 
++     * * * * * 
++    * * * * * * 
++   * * * * * * * 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task2.Testtask2" name="test2_4" time="1.512">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task2.py", line 26, in test2_4
+    self.mars_test_in_out("task2.asm", "task2/4.in", "task2/4.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[190 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 2 yet
++ How tall do you want the tower:          A 
++         * * 
++        * * * 
++       * * * * 
++      * * * * * 
++     * * * * * * 
++    * * * * * * * 
++   * * * * * * * * 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task2.Testtask2" name="test2_5" time="1.182">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task2.py", line 30, in test2_5
+    self.mars_test_in_out("task2.asm", "task2/5.in", "task2/5.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[252 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 2 yet
++ How tall do you want the tower: How tall do you want the tower:           A 
++          * * 
++         * * * 
++        * * * * 
++       * * * * * 
++      * * * * * * 
++     * * * * * * * 
++    * * * * * * * * 
++   * * * * * * * * * 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task2.Testtask2" name="test2_pseudoinstructions" time="0.002"/>
+<testcase classname="test_task3.TestTask3" name="test3_1" time="0.576">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task3.py", line 14, in test3_1
+    self.mars_test_function_in_out("test_task3.asm", "task3.asm", "task3/1.in", "task3/1.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[132 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter the value of hulk pow[49 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task3.asm line 86 column 8: Symbol "smash_or_sad" not found in symbol table.
++ Array length: Enter the value of hulk power: Enter num: Hulk Sad :(
++ Hulk smashed 0 people
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task3.TestTask3" name="test3_2" time="0.501">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task3.py", line 18, in test3_2
+    self.mars_test_function_in_out("test_task3.asm", "task3.asm", "task3/2.in", "task3/2.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[132 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter the value of hulk pow[77 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task3.asm line 86 column 8: Symbol "smash_or_sad" not found in symbol table.
++ Array length: Enter the value of hulk power: Enter num: Enter num: Hulk SMASH! >:(
++ Hulk Sad :(
++ Hulk smashed 1 people
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task3.TestTask3" name="test3_3" time="0.594">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task3.py", line 22, in test3_3
+    self.mars_test_function_in_out("test_task3.asm", "task3.asm", "task3/3.in", "task3/3.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[132 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter the value of hulk pow[101 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task3.asm line 86 column 8: Symbol "smash_or_sad" not found in symbol table.
++ Array length: Enter the value of hulk power: Enter num: Enter num: Enter num: Hulk Sad :(
++ Hulk Sad :(
++ Hulk SMASH! >:(
++ Hulk smashed 1 people
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task3.TestTask3" name="test3_4" time="0.577">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task3.py", line 26, in test3_4
+    self.mars_test_function_in_out("test_task3.asm", "task3.asm", "task3/4.in", "task3/4.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[132 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter the value of hulk pow[133 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task3.asm line 86 column 8: Symbol "smash_or_sad" not found in symbol table.
++ Array length: Enter the value of hulk power: Enter num: Enter num: Enter num: Enter num: Hulk SMASH! >:(
++ Hulk SMASH! >:(
++ Hulk SMASH! >:(
++ Hulk Sad :(
++ Hulk smashed 3 people
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task3.TestTask3" name="test3_5" time="0.509">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task3.py", line 30, in test3_5
+    self.mars_test_function_in_out("test_task3.asm", "task3.asm", "task3/5.in", "task3/5.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[132 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter the value of hulk pow[161 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task3.asm line 86 column 8: Symbol "smash_or_sad" not found in symbol table.
++ Array length: Enter the value of hulk power: Enter num: Enter num: Enter num: Enter num: Enter num: Hulk SMASH! >:(
++ Hulk SMASH! >:(
++ Hulk SMASH! >:(
++ Hulk SMASH! >:(
++ Hulk Sad :(
++ Hulk smashed 4 people
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task3.TestTask3" name="test3_pseudoinstructions" time="0.001"/>
+<testcase classname="test_task4.TestTask4" name="test4_1" time="0.502">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 14, in test4_1
+    self.mars_test_function_in_out("test_task4.asm", "task4.asm", "task4/1_3.in", "task4/1_3.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[134 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: 3 \n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task4.asm line 72 column 8: Symbol "insertion_sort" not found in symbol table.
++ Array length: Enter num: 3 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_2" time="0.526">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 18, in test4_2
+    self.mars_test_function_in_out("test_task4.asm", "task4.asm", "task4/2_21.in", "task4/2_21.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[134 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: 1 2 \n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task4.asm line 72 column 8: Symbol "insertion_sort" not found in symbol table.
++ Array length: Enter num: Enter num: 1 2 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_3" time="0.518">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 22, in test4_3
+    self.mars_test_function_in_out("test_task4.asm", "task4.asm", "task4/3_331.in", "task4/3_331.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[134 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter num: 1 3 3 \n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task4.asm line 72 column 8: Symbol "insertion_sort" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: 1 3 3 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_4" time="0.507">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 26, in test4_4
+    self.mars_test_function_in_out("test_task4.asm", "task4.asm", "task4/4_1-4.in", "task4/4_1-4.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[134 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[25 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task4.asm line 72 column 8: Symbol "insertion_sort" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: Enter num: 1 2 3 4 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_5" time="0.499">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 30, in test4_5
+    self.mars_test_function_in_out("test_task4.asm", "task4.asm", "task4/4_4-1.in", "task4/4_4-1.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[134 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[25 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task4.asm line 72 column 8: Symbol "insertion_sort" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: Enter num: 1 2 3 4 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_main" time="1.069">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task4.py", line 34, in test4_main
+    self.mars_test_in_out("task4.asm", "task4/main.in", "task4/main.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[41 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 4 yet
++ -10 -2 4 6 7 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task4.TestTask4" name="test4_pseudoinstructions" time="0.001"/>
+<testcase classname="test_task5.TestTask5" name="test5_1" time="0.535">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 14, in test5_1
+    self.mars_test_function_in_out("test_task5.asm", "task5.asm", "task5/T1.in", "task5/T1.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[137 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[115 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task5.asm line 93 column 8: Symbol "print_combination" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: Enter num: Enter num: Enter r: 1 2 3 
++ 1 2 4 
++ 1 2 5 
++ 1 3 4 
++ 1 3 5 
++ 1 4 5 
++ 2 3 4 
++ 2 3 5 
++ 2 4 5 
++ 3 4 5 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_2" time="0.500">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 18, in test5_2
+    self.mars_test_function_in_out("test_task5.asm", "task5.asm", "task5/T2.in", "task5/T2.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[137 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[105 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task5.asm line 93 column 8: Symbol "print_combination" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: Enter num: Enter num: Enter r: 10 40 80 30 
++ 10 40 80 10 
++ 10 40 30 10 
++ 10 80 30 10 
++ 40 80 30 10 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_3" time="0.503">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 22, in test5_3
+    self.mars_test_function_in_out("test_task5.asm", "task5.asm", "task5/T3.in", "task5/T3.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[137 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[28 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task5.asm line 93 column 8: Symbol "print_combination" not found in symbol table.
++ Array length: Enter num: Enter num: Enter num: Enter r: 90 
++ 40 
++ 23 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_4" time="0.587">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 26, in test5_4
+    self.mars_test_function_in_out("test_task5.asm", "task5.asm", "task5/T4.in", "task5/T4.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[137 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter num: Enter num: Enter[369 chars]\n\n'
+Diff is 713 characters long. Set self.maxDiff to None to see it.
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_5" time="0.500">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 30, in test5_5
+    self.mars_test_function_in_out("test_task5.asm", "task5.asm", "task5/T5.in", "task5/T5.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 69, in mars_test_function_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: 'MARS[59 chars]r\n\nError in /home/ammar/Documents/GitHub/a1u[137 chars]s.\n' != 'MARS[59 chars]r\n\nArray length: Enter r: \n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- Error in /home/ammar/Documents/GitHub/a1updated/tests/test_task5.asm line 93 column 8: Symbol "print_combination" not found in symbol table.
++ Array length: Enter r: 
+  
+- Processing terminated due to errors.
+
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_main" time="1.135">
+<failure type="AssertionError">Traceback (most recent call last):
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 33, in test
+    raise x
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 14, in do_stuff
+    q1.put(method(*a, **k))
+  File "/home/ammar/Documents/GitHub/a1updated/tests/test_task5.py", line 34, in test5_main
+    self.mars_test_in_out("task5.asm", "task5/main.in", "task5/main.out")
+  File "/home/ammar/Documents/GitHub/a1updated/tests/base_test.py", line 59, in mars_test_in_out
+    self.assertEqual(res.replace("\r", ""), content.replace("\r", ""))
+AssertionError: "MARS 4.5  Copyright 2003-2014 Pete Sande[58 chars]\n\n" != 'MARS 4.5  Copyright 2003-2014 Pete Sande[106 chars]\n\n'
+  MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+  
+- You haven't started task 5 yet
++ 1 2 3 
++ 1 2 4 
++ 1 2 5 
++ 1 3 4 
++ 1 3 5 
++ 1 4 5 
++ 2 3 4 
++ 2 3 5 
++ 2 4 5 
++ 3 4 5 
+  
+
+</failure>
+</testcase>
+<testcase classname="test_task5.TestTask5" name="test5_pseudoinstructions" time="0.002"/>
+</testsuite>
