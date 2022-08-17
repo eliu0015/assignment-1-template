@@ -4,7 +4,7 @@ Template repository for use in Assignment 1.
 
 ## Members
 
-* John Smith jsmi0000@student.monash.edu
+* Ethan Liu eliu0015@student.monash.edu
 
 ## TODO
 
