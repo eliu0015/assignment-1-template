@@ -1,9 +1,10 @@
 	.data
 smash: 		.asciiz "Hulk SMASH! >:("
-sad: 		.asciiz "Hulk sad :("
+sad: 		.asciiz "Hulk Sad :("
 end_prompt1: 	.asciiz "Hulk smashed "
 end_prompt2: 	.asciiz " people"
 newline:    	.asciiz "\n"
+.globl smash_or_sad
 	
 .text
 
@@ -130,6 +131,11 @@ end:
 	syscall
 	
 	la $a0, end_prompt2
+	addi $v0, $0, 4
+	syscall
+	
+	#Print newline
+	la $a0, newline
 	addi $v0, $0, 4
 	syscall
 	

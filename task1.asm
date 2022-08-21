@@ -5,6 +5,7 @@ prompt_age: .asciiz "Enter your age: "
 prompt_con: .asciiz "Enter your total consumption in kWh: "
 prompt_out: .asciiz "Mr Loki Laufeyson, your electricity bill is $"
 dot: .asciiz "."
+newline: .asciiz "\n"
 age: .word 0
 discount: .word 0
 consumption: .word 0
@@ -142,6 +143,11 @@ output:
 	#Print cents
 	add $a0, $0, $t1
 	addi $v0, $0, 1
+	syscall
+	
+	#Print newline
+	la $a0, newline
+	addi $v0, $0, 4
 	syscall
 
 	#End program

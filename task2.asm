@@ -26,7 +26,8 @@ input:
 	#Loop back if height entered is < 5
 	lw $t0, height
 	addi $t1, $0 5
-	blt $t0, $t1, input
+	slt $t2, $t0, $t1
+	bne $t2, $0, input
 	
 	j main
 main: #for i in range(height):
@@ -41,7 +42,8 @@ main: #for i in range(height):
 	mult $t1, $s0 # $t1 = (height+1)*-1
 	mflo $t1
 	sw $t1, s 
-	blt $t2, $t3,  s_loop
+	slt $t0, $t2, $t3
+	bne $t0, $0,  s_loop
 	j end
 	
 s_loop: #for s in range((height+1)*-1, -i):
@@ -62,7 +64,8 @@ s_loop: #for s in range((height+1)*-1, -i):
 	lw $t0, s
 	mult $t1, $s0
 	mflo $t2 # $t2 = -i
-	blt $t0, $t2, s_loop
+	slt $t4, $t0, $t2
+	bne $t4, $0, s_loop
 	#Reset j to 0
 	sw $0, j
 	j j_loop
@@ -81,7 +84,8 @@ j_loop: #for j in range(i+1):
 	addi $t1, $t1, 1
 	addi $t0, $t0, 1 
 	sw $t0, j #j = j + 1
-	blt $t0, $t1,  j_loop
+	slt $t2, $t0, $t1
+	bne $t2, $0,  j_loop
 	
 	#Print newline
 	la $a0, newline
